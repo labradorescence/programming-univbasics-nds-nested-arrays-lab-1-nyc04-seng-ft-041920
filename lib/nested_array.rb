@@ -39,7 +39,7 @@ def matrix_lookup(matrix, row, column)
 
 
   return assembled_matrix[row][column]
-  return sorted_matrix[row][column]
+  return sorted_matrix.sort[row][column]
 
 end
 
