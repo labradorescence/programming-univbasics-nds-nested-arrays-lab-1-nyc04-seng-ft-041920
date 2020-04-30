@@ -37,9 +37,9 @@ def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 
-  return sorted_matrix[row][column]
-  return assembled_matrix[row][column]
 
+  return assembled_matrix[row][column]
+  return sorted_matrix[row][column]
 
 end
 
